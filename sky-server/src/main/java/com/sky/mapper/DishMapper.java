@@ -60,7 +60,7 @@ public interface DishMapper {
 
 
     /**
-     * 修改菜品细腻
+     * 修改菜品信息
      * @param dish
      */
     @AutoFill(OperationType.UPDATE)
