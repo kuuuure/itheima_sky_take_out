@@ -66,4 +66,11 @@ public interface OrderService {
      * @param ordersConfirmDTO
      */
     void confirm(OrdersConfirmDTO ordersConfirmDTO);
+
+
+    /**
+     * 客户催单
+     * @param id
+     */
+    void reminder(Long id);
 }
